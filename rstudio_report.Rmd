@@ -1,10 +1,16 @@
 ---
-title: "Untitled"
+title: "My example report of something cool"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
+#compute needs this to know how to make the document
 knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#use option-command-i to insert an R code block
+plot(1:10, typ = "o", col = "blue")
 ```
 
 ## GitHub Documents
